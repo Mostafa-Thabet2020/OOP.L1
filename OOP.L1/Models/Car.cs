@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.L1.Objs
+namespace OOP.L1.Models
 {
     public class Car:Transport
     {
@@ -13,6 +13,7 @@ namespace OOP.L1.Objs
         public Engine? engine { get; set; } // object
         private string GetCarDescription()//function return string.
         {
+            //\n = new line 
             return $"Car details\n--------\nCar type is {carType}\ncar version is {Version}";
         }
         private string GetEngineDescription()

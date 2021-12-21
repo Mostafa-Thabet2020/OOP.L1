@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.L1.Objs
+namespace OOP.L1.Models
 {
-    public class Transport
+    public class Transport:Base
     {
-        public int ID { get; set; }//id for perfect call(unique) فريدة غير مكررة
         public string? Name { get; set; }
         public string color { get; set; }
         public static int TransportCount { get; set; }

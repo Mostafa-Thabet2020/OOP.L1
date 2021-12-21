@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.L1.Objs
+namespace OOP.L1.Models
 {
     public class Engine
     {
@@ -17,18 +17,10 @@ namespace OOP.L1.Objs
         {
             //encapsulation 
             get//return data to client to database
-            {
-                if (Power<10)
-                {
-                    Power = 10;
-                }
-                return Power;
-            }
+            ;
+
             set// get data from client to database
-            {
-                if (value < 10)
-                { Power = 10; }
-            }
+            ;
         }
         public FuelType fuelType { get; set; }
     }

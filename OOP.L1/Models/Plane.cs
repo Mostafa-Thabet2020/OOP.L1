@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.L1.Objs
+namespace OOP.L1.Models
 {
     public class Plane:Transport
     {

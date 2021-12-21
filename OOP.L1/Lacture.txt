@@ -1,0 +1,24 @@
+﻿
+ classes type:
+ 1.Child:Parent (Ex:Car:Transport).
+ 2.Parent:Base => Common properties for sapcific type of classes.(ex: transportation"car, plane, bus" classes, people classes"users, clients, empolyee")
+ 3.Base => common properties for all classes.
+
+ DataSeeding class Static data that i need to start the project with it, when the database is empty.
+
+ List=> Generic type, that mean it's take any type or any object.
+ to get count of items in the list, use Count function, Ex: cars.Count();
+
+ built in type => decimal , int , DateOnly, DateTime..etc.
+ Type by hande => class.
+ Obj=> class with properties. to handle data.
+ model => obj that i will use in database.
+
+ Access Modifier 
+ 1.public
+ 2.private
+ 3.protacted
+ 4.internal
+
+
+ to handle data use LINQ or Lambada experation
